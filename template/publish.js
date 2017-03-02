@@ -307,7 +307,8 @@ function generateSourceFiles(sourceFiles) {
       handle(e);
     }
 
-    generate('source', 'Source: ' + sourceFiles[file].shortened, [source], sourceOutfile, false);
+    generate('source', 'Source: ' + sourceFiles[file].shortened, [source], sourceOutfile,
+      false);
   });
 }
 
