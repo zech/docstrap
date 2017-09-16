@@ -6848,8 +6848,6 @@ button.close {
 .panel-info .panel-title {
   color: #fff;
 }
-<<<<<<< HEAD
-=======
 .panel-primary > .panel-heading .badge,
 .panel-success > .panel-heading .badge,
 .panel-warning > .panel-heading .badge,
@@ -6857,7 +6855,6 @@ button.close {
 .panel-info > .panel-heading .badge {
   background-color: #fff;
 }
->>>>>>> fd76659ca523a70c827c43d38df02c823621c754
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)

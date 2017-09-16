@@ -453,17 +453,11 @@ function buildNav(members) {
   }
 
   if (members.tutorials.length) {
-<<<<<<< HEAD
-
-    members.tutorials.forEach(function (t) {
-
-=======
     members.tutorials.sort(function (tutorialA, tutorialB) {
       if (tutorialA.title < tutorialB.title) { return -1; }
       if (tutorialA.title > tutorialB.title) { return 1; }
       return 0;
     }).forEach(function (t) {
->>>>>>> fd76659ca523a70c827c43d38df02c823621c754
       nav.tutorial.members.push(tutoriallink(t.name));
     });
   }
